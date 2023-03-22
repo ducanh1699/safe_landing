@@ -1,0 +1,9 @@
+<launch>
+
+    <!-- <rosparam file="$(find offboard_control)/cfg/set_point.yaml" /> -->
+    <!-- Launch rqt_reconfigure -->
+  <!-- <node pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen" name="rqt_reconfigure" /> -->
+  <node pkg="offboard_control" type="controller_uav_node" name="controller_uav_node" output="screen"> </node>
+  <node pkg ="tf" type = "static_transform_publisher" name="body_cam_linker" args="0.1 0 -0.13 -1.57 0.0 -3.14 base_link camera_color_optical_frame 33"/>
+
+</launch>

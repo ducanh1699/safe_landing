@@ -1,0 +1,6 @@
+loiter_height: 5.0
+can_land_thr: 0.4
+smoothing_land_cell: 4
+beta: 0.5
+vertical_range_error: 0.5
+spiral_width: 1.0

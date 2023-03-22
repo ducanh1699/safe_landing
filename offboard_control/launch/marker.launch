@@ -1,0 +1,7 @@
+<launch>
+
+    <include file="$(find aruco_gridboard)/launch/detection.launch"></include>
+    <include file="$(find apriltag_ros)/launch/continuous_detection.launch"></include>
+    <include file="$(find whycon)/launch/whycon.launch"></include>
+
+</launch>
