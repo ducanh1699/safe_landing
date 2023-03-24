@@ -59,7 +59,7 @@ roslaunch mavros px4.launch
 ```bash
 cd catkin_ws/
 source devel/setup.bash
-roslaunch safe_landing_planner safe_landing_planner_launch.launch
+roslaunch safe_landing_planner safe_landing_planner.launch
 ```
 
 Install intel realsense package for depth camera and run demo_pointcloud launch file 
