@@ -25,6 +25,11 @@ roslaunch offboard_control controller_pid.launch
 ```
 ### Terminal 5:-
 ```
+source devel/setup.bash
+rosrun offboard_control setmode_offb
+```
+### Terminal 6:-
+```
 rostopic pub /target_pos geometry_msgs/PoseStamped "header:r:
   stamp:
     secs: 0
