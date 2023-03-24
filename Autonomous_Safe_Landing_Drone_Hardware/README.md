@@ -11,7 +11,7 @@ roslaunch px4 mavros_posix_sitl.launch
 ### Terminal 2:-
 ```
 source devel/setup.bash
-roslaunch safe_landing_planner safe_landing_planner_launch.launch
+roslaunch safe_landing_planner safe_landing_planner.launch
 ```
 ### Terminal 3:-
 ```
